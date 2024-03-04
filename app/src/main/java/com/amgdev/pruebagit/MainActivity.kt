@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello PRUEBA 1",
+        text = "Hello PRUEBA 2",
         modifier = modifier
     )
 }
