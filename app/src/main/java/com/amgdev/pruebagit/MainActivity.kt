@@ -10,6 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.amgdev.pruebagit.ui.Greeting3
 import com.amgdev.pruebagit.ui.theme.PruebaGitTheme
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +24,8 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     Greeting("Android")
-
+                    Greeting2("Android")
+                    Greeting3("")
                 }
             }
         }
@@ -34,6 +36,14 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello PRUEBA MASTER",
+        modifier = modifier
+    )
+}
+
+@Composable
+fun Greeting2(name: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "Hello PRUEBA MASTER 2",
         modifier = modifier
     )
 }
