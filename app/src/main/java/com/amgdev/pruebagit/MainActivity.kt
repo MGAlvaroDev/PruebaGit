@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     Greeting("Android")
-                    Greeting2("ddd")
+
                 }
             }
         }
@@ -33,18 +33,11 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello PRUEBA 1 rama primaria",
+        text = "Hello PRUEBA RAMA",
         modifier = modifier
     )
 }
 
-@Composable
-fun Greeting2(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello PRUEBA 2 rama primaria",
-        modifier = modifier
-    )
-}
 
 @Preview(showBackground = true)
 @Composable
