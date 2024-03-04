@@ -7,7 +7,7 @@ import androidx.compose.ui.Modifier
 @Composable
 fun Greeting3(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello PRUEBA MASTER 3",
+        text = "Hello PRUEBA RAMA",
         modifier = modifier
     )
 }
